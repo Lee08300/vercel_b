@@ -7,7 +7,7 @@ def index():
     homepage = "<h1>李志詳Python網頁</h1>"
     homepage += "<a href=/mis>MIS</a><br>"
     homepage += "<a href=/today>顯示日期時間</a><br>"
-    homepage += "<a href=/welcome?nick=goat>傳送使用者暱稱</a><br>"
+    homepage += "<a href=/welcome?nick=goat&work=PU>傳送使用者暱稱</a><br>"
     homepage += "<a href=/account>網頁表單傳值</a><br>"
     homepage += "<a href=/about>志詳簡介網頁</a><br>"
     return homepage
